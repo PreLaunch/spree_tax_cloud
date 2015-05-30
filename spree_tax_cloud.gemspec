@@ -14,12 +14,10 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_dependency 'spree_backend', '~> 3.0.0'
-
   s.add_runtime_dependency 'savon', '~> 2.5.1'
   s.add_runtime_dependency 'tax_cloud', '~> 0.3.0'
 
-  s.add_development_dependency 'spree_frontend', '~> 3.0.0'
+  s.add_development_dependency 'spree', '~> 2-0-stable'
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'poltergeist'
   s.add_development_dependency 'coffee-rails'
@@ -28,7 +26,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'generator_spec'
   s.add_development_dependency 'rspec-rails',        '~> 2.13'
-  s.add_development_dependency 'sass-rails',         '~> 4.0.2'
+  s.add_development_dependency 'sass-rails',         '~> 3.2.17'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'sqlite3'
 end
